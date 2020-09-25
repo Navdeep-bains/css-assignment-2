@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section.plan-bg {
+  background: #f5efef;
+}
+.plans {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.plan1,
+.plan2,
+.plan3 {
+  flex-basis: 250px;
+  background-color: white;
+}
+.plan1 h3,
+.plan2 h3,
+.plan3 h3 {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  line-height: 14px;
+}
+.plan-title {
+  background-color: #252598;
+  padding: 14px;
+}
+.dollar {
+  text-align: center;
+  background: white;
+  color: black;
+  padding: 18px;
+}
+.dollar .license {
+  border: 1px;
+  width: 41%;
+  font-size: 14px;
+  border-style: dashed;
+  margin: auto;
+}
+.sign-button-container {
+  background-color: black;
+  text-align: center;
+}
+button.sign-up {
+  background-color: white;
+  color: black !important;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 12px;
+  height: 34px;
+  width: 53%;
+  margin: 10px;
+  letter-spacing: 2px;
+}
+.lorem-text {
+  font-size: 12px;
+  padding: 14px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.custom-list {
+  list-style: none;
+}
+.custom-list li {
+  position: relative;
+  padding-left: 28px;
+  font-size: 12px;
+}
+li.item2 {
+  margin-top: 10px;
+}
+.custom-list li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-image: url("./down-arrow.png");
+  background-size: cover;
+  background-position: center;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.buy-button-container {
+  background-color: lemonchiffon;
+  text-align: center;
+  border-bottom: 2px solid blue;
+}
+.plan2-btn-holder {
+    background-color: lemonchiffon;
+    text-align: center;
+    margin-top: 72px;
+    border-bottom: 2px solid blue;
+  }
+  .plan1-btn-holder {
+    background-color: lemonchiffon;
+    text-align: center;
+    margin-top: 100px;
+    border-bottom: 2px solid blue;
+  }
+button.buy-now {
+  background-color: #252598;
+  color: white !important;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  height: 34px;
+  border-radius: 4px;
+  width: 53%;
+  margin: 10px;
+  letter-spacing: 2px;
+}
+
+p.upto {
+  border: 1px dashed;
+  width: 62%;
+  margin: auto;
+  font-size: 14px;
+}
+.second-plan-title {
+  background-color: #373e37;
+  padding: 14px;
+}
+p.plus-licenses {
+  font-size: 14px;
+  border: 1px dashed;
+  width: 46%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .plan2,
+  .plan3 {
+    margin-top: 20px;
+  }
+}
